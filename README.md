@@ -8,8 +8,7 @@ what SICP[^1] calls a "deque."
 >and deleted at either the front or the rear.  Operations on deques are the construc-
 >tor make-deque, the predicate empty-deque?, selectors front-deque and
 >rear-deque, and mutators front-insert-deque!, rear-insert-deque!,
->front-delete-deque!, and rear-delete-deque!.  Show how to represent
->deques using pairs, and give implementations of the operations.  All operations
+>front-delete-deque!, and rear-delete-deque!.  Show how to represent >deques using pairs, and give implementations of the operations.  All operations
 >should be accomplished in O(1) steps.
 
 ### Restrictions and Caveats
@@ -37,5 +36,5 @@ The testbench was verified using these scheme implementations
 ### See Also
 http://community.schemewiki.org/?sicp-ex-3.23
 
-[^1] *Structure and Interpretation of Computer Programs* by Harold Abelson et al. 1996
+[^1]: *Structure and Interpretation of Computer Programs* by Harold Abelson et al. 1996
 
