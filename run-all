@@ -1,0 +1,7 @@
+#! /bin/sh
+
+dqbench >stim8
+
+s9 stim8
+racket -p neil/sicp -f stim8
+mit-scheme --load stim8
